@@ -5,11 +5,11 @@ import (
 	"log"
 	"strings"
 
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/errors"
-	roundrobin "github.com/micro/go-plugins/wrapper/select/roundrobin/v2"
-	api "github.com/micro/micro/v2/api/proto"
+	hello "github.com/go-alive/examples/greeter/srv/proto/hello"
+	"github.com/go-alive/go-micro"
+	"github.com/go-alive/go-micro/errors"
+	roundrobin "github.com/go-alive/go-plugins/wrapper/select/roundrobin/v2"
+	api "github.com/go-alive/micro/api/proto"
 
 	"context"
 )

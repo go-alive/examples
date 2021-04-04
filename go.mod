@@ -1,6 +1,16 @@
-module github.com/micro/examples
+module github.com/go-alive/examples
 
 go 1.13
+
+replace github.com/go-alive/go-micro => /Users/unlikezhang/go/src/github.com/go-alive/go-micro
+
+replace github.com/go-alive/micro => /Users/unlikezhang/go/src/github.com/go-alive/micro
+
+replace github.com/go-alive/cli => /Users/unlikezhang/go/src/github.com/go-alive/cli
+
+//replace github.com/go-alive/go-plugins => /Users/unlikezhang/go/src/github.com/go-alive/go-plugins
+
+replace github.com/go-alive/go-plugins/registry/zookeeper => /Users/unlikezhang/go/src/github.com/go-alive/go-plugins/registry/zookeeper
 
 replace k8s.io/api => k8s.io/api v0.0.0-20190708174958-539a33f6e817
 
@@ -17,30 +27,28 @@ replace google.golang.org/grpc => google.golang.org/grpc v1.24.0
 require (
 	github.com/99designs/gqlgen v0.10.1
 	github.com/astaxie/beego v1.12.0
+	github.com/coreos/etcd v3.3.18+incompatible
+	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/emicklei/go-restful v2.11.1+incompatible
 	github.com/gin-gonic/gin v1.4.0
+	github.com/go-alive/cli v0.0.0-00010101000000-000000000000 // indirect
+	github.com/go-alive/go-micro v1.0.0
+	github.com/go-alive/go-plugins/registry/zookeeper v0.0.0-00010101000000-000000000000
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/golang/protobuf v1.3.3
+	github.com/golang/protobuf v1.4.2
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/rpc v1.2.0
 	github.com/gorilla/websocket v1.4.1
 	github.com/grpc-ecosystem/grpc-gateway v1.12.1
 	github.com/hailocab/go-geoindex v0.0.0-20160127134810-64631bfe9711
-	github.com/micro/cli/v2 v2.1.2
-	github.com/micro/go-micro/v2 v2.4.0
-	github.com/micro/go-plugins/broker/grpc/v2 v2.3.0
-	github.com/micro/go-plugins/client/selector/static/v2 v2.3.0
-	github.com/micro/go-plugins/config/source/configmap/v2 v2.3.0
-	github.com/micro/go-plugins/config/source/grpc/v2 v2.3.0
-	github.com/micro/go-plugins/registry/etcd/v2 v2.3.0
-	github.com/micro/go-plugins/registry/kubernetes/v2 v2.3.0
-	github.com/micro/go-plugins/wrapper/select/roundrobin/v2 v2.3.0
-	github.com/micro/go-plugins/wrapper/select/shard/v2 v2.3.0
-	github.com/micro/micro/v2 v2.4.0
+	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/mitchellh/hashstructure v1.1.0 // indirect
+	github.com/nats-io/nats.go v1.10.0 // indirect
 	github.com/pborman/uuid v1.2.0
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	github.com/vektah/gqlparser v1.2.0
-	golang.org/x/net v0.0.0-20200222125558-5a598a2470a0
+	go.uber.org/zap v1.16.0 // indirect
+	golang.org/x/net v0.0.0-20200707034311-ab3426394381
 	google.golang.org/genproto v0.0.0-20191216164720-4f79533eabd1
 	google.golang.org/grpc v1.26.0
 )

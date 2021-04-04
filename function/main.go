@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	proto "github.com/micro/examples/function/proto"
-	"github.com/micro/go-micro/v2"
+	proto "github.com/go-alive/examples/function/proto"
+	"github.com/go-alive/go-micro"
 )
 
 type Greeter struct{}

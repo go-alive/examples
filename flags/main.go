@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
+	"github.com/go-alive/cli"
+	"github.com/go-alive/go-micro"
 )
 
 func main() {

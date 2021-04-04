@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2/client"
-	gcli "github.com/micro/go-micro/v2/client/grpc"
-	"github.com/micro/go-micro/v2/config/cmd"
-	proto "github.com/micro/go-micro/v2/debug/service/proto"
-	"github.com/micro/go-micro/v2/util/log"
-	_ "github.com/micro/go-plugins/registry/kubernetes/v2"
+	"github.com/go-alive/cli"
+	"github.com/go-alive/go-micro/client"
+	gcli "github.com/go-alive/go-micro/client/grpc"
+	"github.com/go-alive/go-micro/config/cmd"
+	proto "github.com/go-alive/go-micro/debug/service/proto"
+	"github.com/go-alive/go-micro/util/log"
+	_ "github.com/go-alive/go-plugins/registry/kubernetes/v2"
 )
 
 func init() {

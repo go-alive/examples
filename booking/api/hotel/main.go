@@ -13,15 +13,15 @@ import (
 	"golang.org/x/net/trace"
 
 	"github.com/google/uuid"
-	"github.com/micro/examples/booking/api/hotel/proto"
-	"github.com/micro/examples/booking/srv/auth/proto"
-	"github.com/micro/examples/booking/srv/geo/proto"
-	"github.com/micro/examples/booking/srv/profile/proto"
-	"github.com/micro/examples/booking/srv/rate/proto"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/client"
-	merr "github.com/micro/go-micro/v2/errors"
-	"github.com/micro/go-micro/v2/metadata"
+	"github.com/go-alive/examples/booking/api/hotel/proto"
+	"github.com/go-alive/examples/booking/srv/auth/proto"
+	"github.com/go-alive/examples/booking/srv/geo/proto"
+	"github.com/go-alive/examples/booking/srv/profile/proto"
+	"github.com/go-alive/examples/booking/srv/rate/proto"
+	"github.com/go-alive/go-micro"
+	"github.com/go-alive/go-micro/client"
+	merr "github.com/go-alive/go-micro/errors"
+	"github.com/go-alive/go-micro/metadata"
 )
 
 const (

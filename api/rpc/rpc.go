@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	proto "github.com/micro/examples/api/rpc/proto"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/errors"
+	proto "github.com/go-alive/examples/api/rpc/proto"
+	"github.com/go-alive/go-micro"
+	"github.com/go-alive/go-micro/errors"
 
 	"context"
 )

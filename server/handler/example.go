@@ -3,9 +3,9 @@ package handler
 import (
 	"log"
 
-	example "github.com/micro/examples/server/proto/example"
-	"github.com/micro/go-micro/v2/metadata"
-	"github.com/micro/go-micro/v2/server"
+	example "github.com/go-alive/examples/server/proto/example"
+	"github.com/go-alive/go-micro/metadata"
+	"github.com/go-alive/go-micro/server"
 
 	"context"
 )

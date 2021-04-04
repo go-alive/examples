@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/micro/examples/template/srv/handler"
-	"github.com/micro/examples/template/srv/subscriber"
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/util/log"
+	"github.com/go-alive/examples/template/srv/handler"
+	"github.com/go-alive/examples/template/srv/subscriber"
+	"github.com/go-alive/go-micro"
+	"github.com/go-alive/go-micro/util/log"
 
-	example "github.com/micro/examples/template/srv/proto/example"
+	example "github.com/go-alive/examples/template/srv/proto/example"
 )
 
 func main() {

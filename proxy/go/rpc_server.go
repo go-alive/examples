@@ -12,7 +12,7 @@ import (
 
 	"github.com/gorilla/rpc"
 	"github.com/gorilla/rpc/json"
-	"github.com/micro/go-micro/v2/registry"
+	"github.com/go-alive/go-micro/registry"
 	"github.com/pborman/uuid"
 )
 

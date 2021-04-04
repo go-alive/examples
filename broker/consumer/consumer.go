@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/micro/go-micro/v2/broker"
-	"github.com/micro/go-micro/v2/config/cmd"
+	"github.com/go-alive/go-micro/broker"
+	"github.com/go-alive/go-micro/config/cmd"
 	// To enable rabbitmq plugin uncomment
-	//_ "github.com/micro/go-plugins/broker/rabbitmq"
+	//_ "github.com/go-alive/go-plugins/broker/rabbitmq"
 )
 
 var (

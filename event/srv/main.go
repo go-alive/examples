@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2"
-	proto "github.com/micro/go-micro/v2/api/proto"
-	"github.com/micro/go-micro/v2/util/log"
+	"github.com/go-alive/go-micro"
+	proto "github.com/go-alive/go-micro/api/proto"
+	"github.com/go-alive/go-micro/util/log"
 )
 
 // All methods of Event will be executed when a message is received

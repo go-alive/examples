@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 
-	"github.com/micro/go-micro/v2/util/log"
+	"github.com/go-alive/go-micro/util/log"
 
-	example "github.com/micro/examples/template/srv/proto/example"
+	example "github.com/go-alive/examples/template/srv/proto/example"
 )
 
 type Example struct{}

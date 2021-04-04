@@ -2,12 +2,12 @@
 package micro
 
 import (
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-plugins/registry/kubernetes/v2"
+	"github.com/go-alive/go-micro"
+	"github.com/go-alive/go-plugins/registry/kubernetes/v2"
 
 	// static selector offloads load balancing to k8s services
 	// note: requires user to create k8s services
-	"github.com/micro/go-plugins/client/selector/static/v2"
+	"github.com/go-alive/go-plugins/client/selector/static/v2"
 )
 
 // NewService returns a new go-micro service pre-initialised for k8s

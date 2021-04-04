@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro/go-micro/v2"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/go-alive/go-micro"
+	"github.com/go-alive/go-micro/server"
 )
 
 func main() {

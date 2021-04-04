@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/v2/config"
-	"github.com/micro/go-micro/v2/config/source/file"
-	"github.com/micro/go-micro/v2/util/log"
-	proto "github.com/micro/go-plugins/config/source/grpc/v2/proto"
+	"github.com/go-alive/go-micro/config"
+	"github.com/go-alive/go-micro/config/source/file"
+	"github.com/go-alive/go-micro/util/log"
+	proto "github.com/go-alive/go-plugins/config/source/grpc/v2/proto"
 	grpc "google.golang.org/grpc"
 )
 

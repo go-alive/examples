@@ -4,13 +4,14 @@ import (
 	"context"
 	"log"
 
-	pb "github.com/micro/examples/helloworld/proto"
-	"github.com/micro/go-micro/v2"
+	pb "github.com/go-alive/examples/helloworld/proto"
+	"github.com/go-alive/go-micro"
 )
 
 type Greeter struct{}
 
 func (g *Greeter) Hello(ctx context.Context, req *pb.Request, rsp *pb.Response) error {
+	log.Printf("req:%+v", *req)
 	rsp.Greeting = "Hello " + req.Name
 	return nil
 }

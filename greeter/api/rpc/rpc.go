@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	proto "github.com/micro/examples/greeter/api/rpc/proto/hello"
-	hello "github.com/micro/examples/greeter/srv/proto/hello"
-	"github.com/micro/go-micro/v2"
+	proto "github.com/go-alive/examples/greeter/api/rpc/proto/hello"
+	hello "github.com/go-alive/examples/greeter/srv/proto/hello"
+	"github.com/go-alive/go-micro"
 
 	"context"
 )
